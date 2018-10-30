@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import {  Navigation, MYOBLogo } from "@myob/myob-widgets";
 import Form from "./Form";
 import PaySlip from "./PaySlip";
@@ -11,7 +10,7 @@ class App extends Component {
     return (
       <div className="container">
           <Navigation brand={brand} />
-          <PaySlip/>
+          <Form/>
       </div>
     );
   }

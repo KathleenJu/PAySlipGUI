@@ -2,13 +2,6 @@ import React, {Component} from 'react';
 import {Card, Columns} from '@myob/myob-widgets';
 
 class PaySlip extends Component {
-    constructor(props) {
-        super(props);
-    }
-    state = {
-      test: this.props
-    };
-
     render() {
         return (
             <div>
@@ -28,8 +21,13 @@ class PaySlip extends Component {
                                 </div>
                                 <div>
                                     {}
-
-                        </div>
+                                </div>
+                                <div>
+                                    Gross Income:
+                                </div>
+                                <div>
+                                    {}
+                                </div>
                             </Columns>
                         </div>
                     }
